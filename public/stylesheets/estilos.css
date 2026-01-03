@@ -1,0 +1,109 @@
+/* font titulo = edu nsw act hand cursive
+font texto= comic neue 
+*/ 
+
+h1,h2{
+  font-family: "Comic Neue",cursive;
+  font-weight: 300;
+  font-style: italic;
+}
+
+h3{
+font-family: "Comic Neun",cursive;
+font-style: oblique;
+text-align: center;
+ text-align: center;
+font-weight: 200;
+background-color: #b07b9c;
+color: #fff;
+height: 50px;
+justify-content: center;
+
+}
+
+
+
+.hero{
+    background: url(/imagenes/fondo1.jpeg)no-repeat;
+    background-size: cover;
+    height: 0.2vh;
+    min-height: 500px;
+    color: rgb(24, 5, 24);
+}
+
+.lista-nosotros{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.lista-nosotros li a{
+margin: 40px 0;
+}
+
+.lista-nosotros li a {
+background-color: #fff;
+font-family: cursive;
+text-decoration: none;
+font-size: 1.2rem;
+color: rgb(27, 27, 24);
+transition: all .2s ease-in-out;
+display: block;
+
+
+}
+.lista-nosotros li a:hover {
+    color: #212529;
+    background-color: #dcc4e9;
+}
+
+
+.lista-nosotros li a img {
+width: 120px;
+height: 50px;
+filter: grayscale();
+transition: all .2s ease-in-out;
+margin-right: 1rem;
+opacity: 0.7;
+}
+
+.lista-nosotros li a:hover img {
+filter: none;
+margin-right: 1.4rem;
+opacity: 1;
+}
+.experiencias{
+    background-color: #eed8e3;
+    padding-bottom: 6rem !important;
+    margin-bottom: -3rem;
+    bottom: 0;
+    possition: absolute;
+}
+
+.experiencias{
+    text-align:center;
+padding: 60px 20px;
+}
+
+
+.carousel-img {
+  height: 120px;
+}
+
+
+scroll-section{
+    scroll-margin-top: 60px;
+}
+
+
+.staff {
+  background: #e4cce2;
+}
+
+
+.mapa iframe {
+  width: 100%;
+  aspect-ratio: 1.2;
+}
+
